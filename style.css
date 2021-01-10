@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #323232;
+}
+
+li, a{
+    font-family: 'Arial';
+    font-size: 22px;
+    color: #000000;
+    text-decoration: none;
+    background-color: #A07E7E;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #A07E7E;
+    height: 60px;
+}
+
+#logo{
+    font-size: 40px;
+    font-family: 'Dancing Script';
+    cursor: pointer;
+    background-color: #A07E7E;
+    margin-left: -80px;
+}
+
+.nav-links{
+    list-style: none;
+    background-color: #A07E7E;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+.nav-links li a {
+    transition: all 0.2s ease 0s;
+}
+.nav-links li a:hover {
+    color: #424040;
+}
+
+.section-title{
+    font-size: 45px;
+    font-family: 'Arial';
+    margin-left: 110px;
+    margin-top: -164px;
+    color: #AD7C66;
+}
+.section-para{
+    font-size: 25px;
+    font-family: 'JetBrains Mono';
+    margin-left: 100px;
+    margin-top: 45px;
+    color: #947E7E;
+    
+}
+img{
+    height: 109.991mm;
+    width: 103.943mm;
+    position: relative;
+    top: 80px;
+    left: 800px;
+}
